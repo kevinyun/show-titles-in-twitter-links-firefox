@@ -12,7 +12,7 @@ function addLinkTitleToTweets() {
     const urlAndTitle = tweet.querySelector('div[data-testid="card.wrapper"] a[href^="https://t.co"]');
     const elementToGetStylesFrom = tweet.querySelector('div[data-testid="tweetText"] > span');
     // const fontFamily = window.getComputedStyle(elementToGetStylesFrom).getPropertyValue('font-family').split(',')[0].trim();
-    const fontFamily = 'TwitterChirp, -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+    const fontFamily = 'TwitterChirp, -apple-system, \'system-ui\', \'Segoe UI\', Roboto, Helvetica, Arial, sans-serif';
     const backgroundColor = window.getComputedStyle(elementToGetStylesFrom).getPropertyValue('background-color');
     const color = window.getComputedStyle(elementToGetStylesFrom).getPropertyValue('color');
 
