@@ -1,20 +1,17 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Show Titles In X (formerly Twitter) Links",
   "description": "Show titles in articles and URLs shared on X (formerly Twitter).",
   "version": "1.5",
-  "action": {
-    "default_icon": {
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
+  "applications": {
+    "gecko": {
+      "id": "show-titles-in-x@example.com"
     }
   },
-  "content_scripts": [{
-    "matches": ["https://twitter.com/*", "https://x.com/*"],
-    "js": ["content.js"],
-    "run_at": "document_end"
-  }],
+  "permissions": ["https://twitter.com/*", "https://x.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",
