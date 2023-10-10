@@ -6,7 +6,7 @@
   "permissions": ["https://twitter.com/*", "https://x.com/*"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "show-titles-in-twitter@example.com"
+      "id": "show-titles-in-x@example.com"
     }
   },
   "content_scripts": [{
