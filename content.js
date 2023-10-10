@@ -30,7 +30,7 @@ function addLinkTitleToTweets() {
         const title = urlAndTitleAriaLabel.split(`${url} `)[1];
 
         if (url) {
-          const htmlToAppend = `<div style="padding: 0.75em 1em; margin-bottom: 30px; font-weight: bold; color: ${color}; background-color: ${backgroundColor}; font-family: '${fontFamily}'">${title}</div>`;
+          const htmlToAppend = `<div style="padding: 0.75em 1em; margin-bottom: 30px; font-size: 1.1em; font-weight: bold; color: ${color}; background-color: ${backgroundColor}; font-family: '${fontFamily}'">${title}</div>`;
           urlAndTitle.insertAdjacentHTML('beforeend', htmlToAppend);
 
           // Mark this tweet as processed
