@@ -1,3 +1,7 @@
+[Install the Firefox add-on here](https://addons.mozilla.org/en-US/firefox/addon/show-titles-in-twitter/)
+
+___
+
 # show-titles-in-twitter-links-firefox
 Show titles/headlines in X (formerly Twitter) links again -- Firefox Extension.
 
